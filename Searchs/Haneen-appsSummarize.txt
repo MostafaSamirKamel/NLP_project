@@ -1,0 +1,84 @@
+*Text Summarization Techniques
+Despite its manual-to-automated evolution facilitated by AI and ML progress, Text Summarization remains complex. Text Summarization is critical in news, document organization, and web exploration, increasing data usage and bettering decision-making. It enhances the comprehension of crucial information and the value of the text. Combining syntax and semantics, it creates clear, highly coherent summaries, which define people’s connection with information.
+
+*Table of Content
+
+-Importance of Text Summarization
+-Text Summarization Techniques
+-Extractive Summarization
+-Techniques used in Extractive Summarization
+  1. Statistical Approaches:
+  2. Graph-Based Methods:
+  3. Machine Learning Algorithms:
+  4. Sentence Scoring:
+-Abstractive Summarization
+-Techniques Used in Abstractive Summarization
+  1. Sequence-to-Sequence Models:
+  2. Attention Mechanisms:
+  3. Pre-trained Language Models:
+-Hybrid Methods
+-conclusion
+
+***********************************************************
+-Importance of Text Summarization
+Our lives are surrounded by a large amount of information. When it comes to our day with daily information flow comes articles, news, blogs, tries, social media posts, and scientific papers. It is one big amount of useful information to understand something and develop a decision based on the information you need to have insights or process it. However, no human can eat that much information during his life. Here what stands up behind the priority of Text Summarization.
+
+Text Summarization can be used in many other fields. It summarises long stories into short descriptions or summarize multiple original source summaries in literature reviews. Text summarization is very helpful , where people always deal with so much information daily.
+
+
+-Text Summarization Techniques
+There are two primary techniques in text summarization :
+
+
+-Extractive Summarization
+Extractive summarization is a text summarization technique based on identifying and separating the primary sentences or phrases in the source text to create summary. The extractive summarization systems employ statistical algorithms and linguistic analysis to assess word frequency, sentence position, and keyword occurrence to gauge the importance of each type of textual input.
+
+The prioritized sentences are then placed together to develop a brief, information summary. The primary benefit of extractive summarization is its simplicity and the ability for computational deployment. Additionally, the process is relatively straight forward, as the summary is based on the pre-existing text and its extraction. However, in the operational mode, the summaries may lose interpersonal aspects and lack a wholistic context.
+
+
+-Techniques used in Extractive Summarization
+1. Statistical Approaches:
+This approach explains the importance of sentence structures within a document by channeling the power of mathematical models. Algorithms like Term Frequency-Inverse Document Frequency (TF-IDF) and Latent Semantic Analysis (LSA) help to evaluate how relevant word is to a document.
+
+TF-IDF stands for Term Frequency-Inverse Document Frequency and is a statistical method used in text summarization. It determines how essential a word in one document is based on its distribution in the text and document language.
+LSA employs singular value decomposition to identify the underlying themes or topics in a text. The goal is to reduce the dimensionality of the document-term matrix and, in turn, decrease the noise and redundancy while capturing the semantics of the text. LSA aims to identify hidden themes or topics, thereby reducing dimensionality and noise, while maintaining the essence of the text.
+
+2. Graph-Based Methods:
+These involve constructing a graph where sentences are nodes connected based on their similarity.
+Algorithms like TextRank or LexRank use this approach to determine the weight of each sentence, selecting those with higher scores for the summary.
+3. Machine Learning Algorithms:
+In this an algorithm is used relate models and training examples to input-output. Models are pairs of input and output, and the learning algorithm is defined through a function that uses the pattern that consistently maps onto data points.
+
+Supervised learning models can be trained on labeled datasets to identify salient sentences.
+Features such as sentence length, word frequency, and the position of the sentence in the document are often used.
+
+4. Sentence Scoring:
+Each sentence in the document is scored based on various criteria such as word frequency, importance of keywords, position in the document, and similarity to other sentences. Sentences with higher scores are considered more important and are included in the summary.
+Abstractive Summarization
+Abstractive Summarization attempts to grasp what a text is about and create new sentences that relay that information to the reader. Such summaries rely on complex NLP technologies, such as semantic representation and language modeling and neural network architectures, that allow them to grasp the idea’s essence and generate new and coherent summaries.
+
+
+-Abstractive summarization
+Abstractive summarization is capable of generating human-like and informative summaries since it can modify and reorganize the original text, making it shorter and more meaningful. Abstractive summarization is more demanding and depends on computing resources.
+
+-Techniques Used in Abstractive Summarization
+1. Sequence-to-Sequence Models:
+These are deep learning models that transform an input sequence of text into an output sequence that is the summary.
+Common models include LSTM (Long Short-Term Memory) networks and the more advanced Transformer-based models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer).
+
+2. Attention Mechanisms:
+This technique helps the model focus on different parts of the source document dynamically while generating the summary.
+It improves the coherence and relevance of the generated summaries by aligning parts of the input text with the output text.
+
+3. Pre-trained Language Models:
+Models like BERT and GPT can be fine-tuned for specific summarization tasks. They leverage vast amounts of pre-existing text to produce more contextually enriched summaries.
+These models have shown significant promise in generating human-like text.
+
+
+-Hybrid Methods
+Hybrid methods combine extractive and abstractive techniques to leverage the strengths of both approaches. For example, a system might first use an extractive method to select important sentences and then rephrase them using abstractive methods to ensure the summary is concise and fluent.
+
+
+-Conclusion
+Due to increase in vast amounts of information, text summarization is important for parsing information quickly and efficiently. By leveraging both extractive and abstractive summarization done using statistical, rule-based, machine learning, and deep learning methods, the summaries can be created to their complexity and efficiency demands. Advancements in AI and ML will cause further advancement in the field of text summarizations, allowing enhanced accuracy and capability to understand the context.
+
